@@ -1,20 +1,35 @@
 [
     { 
-        "name": "Introdução",
-        "timeLimitMs": 40000, 
-        "ordersToWin": 3,     
-        "recipes": ["x_burger", "x_salada", "vegetariano"] 
+        "name": "Nível 1: Tutorial de Montagem",
+        "timeLimitMs": 45000, 
+        "ordersToWin": 3,
+        "orderSequence": [
+            "x_burger",    // Pedido 1
+            "vegetariano", // Pedido 2
+            "x_salada"     // Pedido 3
+        ]
     },
     { 
-        "name": "Cozinha Quente",
-        "timeLimitMs": 30000, 
+        "name": "Nível 2: Cozinha Quente com Batata",
+        "timeLimitMs": 35000, 
         "ordersToWin": 4,     
-        "recipes": ["x_burger", "x_bacon", "x_egg", "combo_fritas"] 
+        "orderSequence": [
+            "x_bacon",      // Pedido 1 (Bacon)
+            "combo_fritas", // Pedido 2 (Fritas e Carne)
+            "x_egg",        // Pedido 3 (Ovo)
+            "x_burger"      // Pedido 4 (Mais um)
+        ]
     },
     { 
-        "name": "Correria Total",
+        "name": "Nível 3: Correria Mista",
         "timeLimitMs": 25000, 
         "ordersToWin": 5,     
-        "recipes": ["x_burger", "x_salada", "x_bacon", "x_egg", "combo_fritas"] 
+        "orderSequence": [
+            "x_salada", 
+            "combo_fritas", 
+            "x_bacon",
+            "x_egg",
+            "x_burger"
+        ]
     }
 ]
