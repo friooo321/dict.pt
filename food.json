@@ -1,0 +1,20 @@
+[
+    { 
+        "name": "Introdução",
+        "timeLimitMs": 40000, 
+        "ordersToWin": 3,     
+        "recipes": ["x_burger", "x_salada", "vegetariano"] 
+    },
+    { 
+        "name": "Cozinha Quente",
+        "timeLimitMs": 30000, 
+        "ordersToWin": 4,     
+        "recipes": ["x_burger", "x_bacon", "x_egg", "combo_fritas"] 
+    },
+    { 
+        "name": "Correria Total",
+        "timeLimitMs": 25000, 
+        "ordersToWin": 5,     
+        "recipes": ["x_burger", "x_salada", "x_bacon", "x_egg", "combo_fritas"] 
+    }
+]
